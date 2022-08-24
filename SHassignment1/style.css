@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*::selection{
+    color: rgb(255, 246, 246);
+    background-color: aqua;
+}
+body{
+   overflow-x: scroll;
+   min-height: 100vh;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: rgb(10, 17, 7);
+   background-color: rgb(245, 248, 247);
+   justify-content: center;
+}
+.container{
+height: 100vh;
+display: grid;
+grid-template-columns: 2fr 3fr;
+}
+.image{
+    background-image: url(mountain.jpg);
+    background-size: cover;
+    background-position: 40%center;   
+}
+header{
+    background-color: #090c08b0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 259px;
+}
+img{
+    height: 45%;
+}
+.logo{
+    color: rgb(255, 255, 255);
+}
+.at{
+    color: antiquewhite;
+    margin-top: 310px;
+    margin-left: 40px;
+}
+.highlight{
+    color: rgb(184, 184, 247);
+}
+.page{
+    display: grid;
+    grid-template-rows: 2fr 4fr;
+    
+    
+}
+.first{
+    padding-left: 4%;
+    margin-top: 10%;
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.box{
+    background-color: white;
+    box-shadow: 0 2px 5px 0px rgba(0, 0, 0, 0.212);
+    padding: 2%;
+    padding-left:4% ;
+    position: relative;
+}
+.heading{ 
+ font-weight: 700;
+ position: inherit;
+}
+.heading::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(35, 80, 33);
+}
+.card-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 50%;
+}
+.card-box{
+    width: calc(100% / 2 -20px);
+    padding: 5px;
+}
+.details{
+    display: block;
+    font-weight: 500;
+}
+.card-box input{
+    width: 150px;
+    border: 1px solid rgb(153, 152, 152);
+    border-radius: 4px;
+    padding-left: 15px;
+    font-size: 14px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.card-box input:hover{
+    background-color: rgb(226, 238, 255);
+    
+}
+form .circal-form .circal-title{
+    font-weight: 600;
+    padding: 2px;
+}
+.form .circal-form .category{
+    margin-top: 2px; 
+    margin-bottom: 2px ;
+}
+
+.button input{
+    color: white;
+    background-color: green;
+    width: 200px;
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 4px 4px 1px rgb(87, 87, 87);
+    margin-bottom: 2%;
+}
+form .button input:hover{
+    background: linear-gradient(-135deg, #16101b,  #eb1414);
+
+ }
+.second .third{
+    padding: 4%;
+}
