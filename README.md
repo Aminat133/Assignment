@@ -1,2 +1,2 @@
-Side-hustle project
+Personal project
 assignment
